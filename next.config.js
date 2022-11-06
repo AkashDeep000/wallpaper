@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+    images: {
+    domains: ['pocketbase.akashdeep000.repl.co'],
+  },
 }
 
 module.exports = nextConfig
